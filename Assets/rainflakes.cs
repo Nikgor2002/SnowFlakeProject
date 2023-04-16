@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class Snowflake : MonoBehaviour
+public class rainflakes : MonoBehaviour
 {
-    public Material snowMaterial;
+    public Material rainMaterial;
     public float particleSize = 0.1f;
     public Vector3 windDirection;
     public float temperature;
@@ -26,7 +26,6 @@ public class Snowflake : MonoBehaviour
         particleSystemRenderer = GetComponent<ParticleSystemRenderer>();
         
         mainModule.startLifetime = new ParticleSystem.MinMaxCurve(25f, 30f);
-        mainModule.startSpeed = new ParticleSystem.MinMaxCurve(0.2f, 0.3f);
         mainModule.startSize = new ParticleSystem.MinMaxCurve(0.1f, 0.2f);
         mainModule.maxParticles = 1000000000;
         mainModule.loop = true;
@@ -35,21 +34,18 @@ public class Snowflake : MonoBehaviour
         mainModule.scalingMode = ParticleSystemScalingMode.Shape;
         mainModule.gravityModifier = windDirection[1];
 
-        emissionModule.rateOverTime = 10000f;
-
-        if (temperature >= 3f){
+        emissionModule.rateOverTime = 30000f;
+        
+        if (temperature < 0f){
             particleSystem.Stop();
         }
-        
     }
 
     void Update()
     {
         _tick += 0.002f;
-        float x = (float)((0.8f)*Math.Sin(_tick));
         float y = _tick/10;
-        float z = (float)((0.8f)*Math.Cos(_tick));
-        Vector3 addVector = new Vector3(x,y,z);
+        Vector3 addVector = new Vector3(0f,y,0f);
         Vector3 Wind = new Vector3(windDirection[0]*_tick, 0f, windDirection[2]*_tick);
         Vector3 alfa = _startLocation - addVector + Wind;
 
