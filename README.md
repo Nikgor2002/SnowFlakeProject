@@ -1,7 +1,7 @@
 
 
 <p align="center">
-      <img src="https://ibb.co/9tPMGgT" width="726">
+      <img src="https://i.ibb.co/q56Zxjs/2023-04-17-11-29-04-transformed.png" width="726">
 </p>
 
 <p align="center">
