@@ -45,9 +45,9 @@ public class Snowflake : MonoBehaviour
 
     void Update()
     {
-        _tick += 0.002f;
+        _tick += 0.001f;
         float x = (float)((0.8f)*Math.Sin(_tick));
-        float y = _tick/10;
+        float y = _tick/20;
         float z = (float)((0.8f)*Math.Cos(_tick));
         Vector3 addVector = new Vector3(x,y,z);
         Vector3 Wind = new Vector3(windDirection[0]*_tick, 0f, windDirection[2]*_tick);
