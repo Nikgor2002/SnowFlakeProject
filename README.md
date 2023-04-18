@@ -6,7 +6,7 @@
 
 <p align="center">
    <img src="https://img.shields.io/badge/Engine%20%20-Unity%202021.3.20f1-brightgreen" alt="Unity Version">
-   <img src="https://img.shields.io/badge/version-1.0.0(Alpha)-blue" alt="Game Version">
+   <img src="https://img.shields.io/badge/version-2.0.0(Alpha)-blue" alt="Game Version">
    <img src="https://img.shields.io/badge/License-MIT-red" alt="License">
 </p>
 
