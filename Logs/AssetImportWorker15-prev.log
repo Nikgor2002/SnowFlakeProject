@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 32537 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/schuc/SnowFlakeProject
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+55007
+Successfully changed project path to: C:/Users/schuc/SnowFlakeProject
+C:/Users/schuc/SnowFlakeProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32492] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2870321014 [EditorId] 2870321014 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32492] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2870321014 [EditorId] 2870321014 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 68.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/schuc/SnowFlakeProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti Laptop GPU (ID=0x2420)
+    Vendor:   NVIDIA
+    VRAM:     16189 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004099 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.415 seconds
+Domain Reload Profiling:
+	ReloadAssembly (416ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (297ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (68ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (348.0 KB). Loaded Objects now: 5256.
+Memory consumption went from 206.3 MB to 206.0 MB.
+Total: 3.985100 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.235200 ms MarkObjects: 3.201100 ms  DeleteObjects: 0.193300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11229.476060 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Shaders
+  artifactKey: Guid(7b44d1374d33dd34f90e92702eb7caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Shaders using Guid(7b44d1374d33dd34f90e92702eb7caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e47a3f2d1f51ed72254afc120bad00') in 0.011066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.064223 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Shaders/Particle
+  artifactKey: Guid(a902468395d5e22449673a8158c7d40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Shaders/Particle using Guid(a902468395d5e22449673a8158c7d40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3aeec4023d725be70b6f494577bf35') in 0.005600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.372567 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesAlphaBlend.shader
+  artifactKey: Guid(4b46c5cd78fad2b4bb7e182ea4f565d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesAlphaBlend.shader using Guid(4b46c5cd78fad2b4bb7e182ea4f565d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654c638df5277ecbed6d7140e8b3e148') in 0.023974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.807721 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab
+  artifactKey: Guid(c85433c80946b034d9a350eddeeaff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab using Guid(c85433c80946b034d9a350eddeeaff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb9304aee21c05dfbaf0b9d3b087024') in 0.005784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041593 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab/EnviroSky VR.prefab
+  artifactKey: Guid(57fd8d220c69ea046ac57999d328f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab/EnviroSky VR.prefab using Guid(57fd8d220c69ea046ac57999d328f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442b4651825273352d779e869ee3d9e3') in 0.400732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693500 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects
+  artifactKey: Guid(6b933932dd2b53e4c897f63060efb8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects using Guid(6b933932dd2b53e4c897f63060efb8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd7f1d8a3292ec4dbfc1caba63f47cd') in 0.006168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089570 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Enviro_Lightning_Strike.prefab
+  artifactKey: Guid(044a06c0461cf464dbd3727572a70d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Enviro_Lightning_Strike.prefab using Guid(044a06c0461cf464dbd3727572a70d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3126f748a6123a67d38132bb7666223') in 0.018729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Near Snow.prefab
+  artifactKey: Guid(31dd8ccc1924c534e8a366c92c8410f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Near Snow.prefab using Guid(31dd8ccc1924c534e8a366c92c8410f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4474287108d9ebfb18d134bef11bab') in 0.017346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Storm Rain.prefab
+  artifactKey: Guid(8bb020f87d2cd0e4d86ee7420259c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Storm Rain.prefab using Guid(8bb020f87d2cd0e4d86ee7420259c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d87d8e259077a99d4c7a4fc57e1bcc5') in 0.019093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Snow VR.prefab
+  artifactKey: Guid(0075ab175ecc30447ac1888d39fc1a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Snow VR.prefab using Guid(0075ab175ecc30447ac1888d39fc1a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377b68e67e053830a5ee8a381f2152e0') in 0.017933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.319001 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVegetationInstance.cs
+  artifactKey: Guid(1a1d1280e7a7a094883ff908db403dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVegetationInstance.cs using Guid(1a1d1280e7a7a094883ff908db403dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694271c8340dcfb6fbfd0c930cab6caa') in 0.006750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.476481 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Scripts/EnviroWeatherPreset.cs
+  artifactKey: Guid(ad9e871a73fc09d488bc058f3b382b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Scripts/EnviroWeatherPreset.cs using Guid(ad9e871a73fc09d488bc058f3b382b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6ca593f2d0a8cefde30397c17b0b6d') in 0.006202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.964339 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVolumeLight.cs
+  artifactKey: Guid(5c7457fc8c1b79f46b31cdd5ad46bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVolumeLight.cs using Guid(5c7457fc8c1b79f46b31cdd5ad46bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30d6d62f03e3734ccac2960309e2dec') in 0.005629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.017232 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Scripts/Effects
+  artifactKey: Guid(e2176fd5f3aabeb4fb254fd6fe1df4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Scripts/Effects using Guid(e2176fd5f3aabeb4fb254fd6fe1df4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0baecec25510c6658334aaaca30e9f') in 0.007079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.707493 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Materials
+  artifactKey: Guid(03788e8b6d7a3a445bff5e9b58e5fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Materials using Guid(03788e8b6d7a3a445bff5e9b58e5fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8700392de5f0bbf17504d9ccce76510') in 0.005358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046470 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Materials/EnviroMoon.mat
+  artifactKey: Guid(77aadd39ad6d11f449dcac619f0729ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Materials/EnviroMoon.mat using Guid(77aadd39ad6d11f449dcac619f0729ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a35680332f40fe1d72edf20684c96ce') in 0.030178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.096266 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Materials/Weather
+  artifactKey: Guid(e27644d0314e87d408991ecbe292f87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Materials/Weather using Guid(e27644d0314e87d408991ecbe292f87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0808188ec15e930626cdcb7235fe66') in 0.005931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043871 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroRainDrop.mat
+  artifactKey: Guid(21f1794db57c81e4ba477c2e7d90a19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroRainDrop.mat using Guid(21f1794db57c81e4ba477c2e7d90a19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66469c87f2f76456ba3394833825fbe') in 0.020616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroSnow.mat
+  artifactKey: Guid(c98933d471909284b8cede16892af46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroSnow.mat using Guid(c98933d471909284b8cede16892af46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c17f59d55cb043ceccbbcfe8de3cbf') in 0.059802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Materials/Weather/Lightning_Glow.mat
+  artifactKey: Guid(6747cfac18b9ab04592753c619055b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Materials/Weather/Lightning_Glow.mat using Guid(6747cfac18b9ab04592753c619055b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab7da1de4d86ffd9a6072ffd1dbe956') in 0.048933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.105284 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Profiles/PostEffect Profile/Enviro Post FX.asset
+  artifactKey: Guid(e955f2330dfd56842bfd9204c885ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Profiles/PostEffect Profile/Enviro Post FX.asset using Guid(e955f2330dfd56842bfd9204c885ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369b8311a71a748be762eb6590ac3396') in 0.005798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Default.asset
+  artifactKey: Guid(94ffe4588b85ed542b2608df93952ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Default.asset using Guid(94ffe4588b85ed542b2608df93952ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19c67f4cc89036f67dc71035574a8a8') in 0.113553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroNoiseCore.cginc
+  artifactKey: Guid(7722318409d51394d9a6aea87de37263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroNoiseCore.cginc using Guid(7722318409d51394d9a6aea87de37263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a62480a51aa55f8570d658423efd6b') in 0.013055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Sunset.asset
+  artifactKey: Guid(dcee18ee98c3e3c449d71215eeffa252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Sunset.asset using Guid(dcee18ee98c3e3c449d71215eeffa252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2d17df557baec5e9311dad7fb787dc') in 0.091333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_base_low.asset
+  artifactKey: Guid(0ec564c0b7a0ab646a33fb96c6943891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_base_low.asset using Guid(0ec564c0b7a0ab646a33fb96c6943891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbf15b88d83ead34019b2893806ee16') in 0.044423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015249 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroVolumeLightCore.cginc
+  artifactKey: Guid(99c079f58f92c804197ee5a23e05164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroVolumeLightCore.cginc using Guid(99c079f58f92c804197ee5a23e05164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3837c53f6cedbd235c4ad85d608cadee') in 0.007456 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (307.2 KB). Loaded Objects now: 5393.
+Memory consumption went from 109.2 MB to 108.9 MB.
+Total: 4.898800 ms (FindLiveObjects: 0.570200 ms CreateObjectMapping: 0.201800 ms MarkObjects: 4.051100 ms  DeleteObjects: 0.074500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.162702 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_envirolightrain2.wav
+  artifactKey: Guid(afb4bc5e94b940a49960cab45960e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_envirolightrain2.wav using Guid(afb4bc5e94b940a49960cab45960e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee10228384289a40f4ca2cb2fcfdeac6') in 0.028857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.147693 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroLightShafts.cs
+  artifactKey: Guid(7bc2158365ed6fb429515bc7eb6f8cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroLightShafts.cs using Guid(7bc2158365ed6fb429515bc7eb6f8cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de6996b26901607d5a694b3ff7bb135') in 0.005783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.691506 seconds.
+  path: Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroLightning.cs
+  artifactKey: Guid(120ff24da31c9654cb86380646d96e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroLightning.cs using Guid(120ff24da31c9654cb86380646d96e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb192aa18c54a7736b9e02b92279a0d') in 0.006171 seconds 
