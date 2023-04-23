@@ -1,0 +1,324 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 32537 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/schuc/SnowFlakeProject
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+55007
+Successfully changed project path to: C:/Users/schuc/SnowFlakeProject
+C:/Users/schuc/SnowFlakeProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31832] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4020464476 [EditorId] 4020464476 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31832] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4020464476 [EditorId] 4020464476 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 68.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/schuc/SnowFlakeProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti Laptop GPU (ID=0x2420)
+    Vendor:   NVIDIA
+    VRAM:     16189 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002807 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (303ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4724 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (347.2 KB). Loaded Objects now: 5197.
+Memory consumption went from 200.6 MB to 200.3 MB.
+Total: 2.315900 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.113500 ms MarkObjects: 1.870700 ms  DeleteObjects: 0.110600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10625.646638 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Sources/Materials/THOR_LightningCloud.mat
+  artifactKey: Guid(a5fcc141fbf49574bbbdc2be5f20d4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Sources/Materials/THOR_LightningCloud.mat using Guid(a5fcc141fbf49574bbbdc2be5f20d4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada50b4a611c4e7e495c77c82384eb27') in 0.185882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.928935 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Sources/Prefabs/THOR_SheetLightning.prefab
+  artifactKey: Guid(6e6d477b0de29de4eb5c2b829db7e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Sources/Prefabs/THOR_SheetLightning.prefab using Guid(6e6d477b0de29de4eb5c2b829db7e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd13735ec32c2c0e92e003e61c37f11') in 0.023583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.467143 seconds.
+  path: Assets/WinterNature/Textures/Terrain/Dirt_N.tga
+  artifactKey: Guid(69d4b5393cf4ea64cb353df981409598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Textures/Terrain/Dirt_N.tga using Guid(69d4b5393cf4ea64cb353df981409598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ddecb8fd0f4543621502dfe52ef1c4') in 0.036204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WinterNature/Prefabs/PineTree2.prefab
+  artifactKey: Guid(31ce315f1e352d3489734248a590a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Prefabs/PineTree2.prefab using Guid(31ce315f1e352d3489734248a590a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b969ec739690784d989d530d1c74e63') in 0.091785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WinterNature/Textures/Flora/PineTree_D.tga
+  artifactKey: Guid(f3b0f2ad23372644a80997c2eedbfb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Textures/Flora/PineTree_D.tga using Guid(f3b0f2ad23372644a80997c2eedbfb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b843bf738e65226f9aba4b2d94b446e') in 0.062338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WinterNature/Textures/Billboard/PineTree1_Billboard_D.tga
+  artifactKey: Guid(0ca1954e99a0524438f305b59126ff2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Textures/Billboard/PineTree1_Billboard_D.tga using Guid(0ca1954e99a0524438f305b59126ff2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478689f41afc4bb75f63374bdacf4bc5') in 0.044977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/WinterNature/Material/Billboard/PineTree2.mat
+  artifactKey: Guid(773b744a30e52614a8c68d6d553ed46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Material/Billboard/PineTree2.mat using Guid(773b744a30e52614a8c68d6d553ed46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f52ac529eb32dbc2e1d5e523774e01') in 0.062674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WinterNature/Meshes/PineTree1.FBX
+  artifactKey: Guid(c786b4be27636aa4598e44c020fe9706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Meshes/PineTree1.FBX using Guid(c786b4be27636aa4598e44c020fe9706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d633a51a2d890c6939216a104a2c65') in 0.083389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WinterNature/Material/Billboard/PineTree1.mat
+  artifactKey: Guid(062648b4dadf4144ab4b810c0161265e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Material/Billboard/PineTree1.mat using Guid(062648b4dadf4144ab4b810c0161265e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456c62db5d1386a0216b5e9167fad632') in 0.006782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WinterNature/Meshes/PineTree2.FBX
+  artifactKey: Guid(950a40527e638c241970d3b836610167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Meshes/PineTree2.FBX using Guid(950a40527e638c241970d3b836610167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ffbedd32eea38b5038ed1a624d6c7') in 0.040606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/THOR_DemoTerrain.mat
+  artifactKey: Guid(c879694f39252ca4d8b60da131c166e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/THOR_DemoTerrain.mat using Guid(c879694f39252ca4d8b60da131c166e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1b9d54f7c71198d3ae034ac29a9d42') in 0.010718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_DetailDiffuse.psd
+  artifactKey: Guid(69de6efd737f2044eba4333e1a7592aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_DetailDiffuse.psd using Guid(69de6efd737f2044eba4333e1a7592aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f42fb66b6e223c3be7e23b449828a68') in 0.018138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_DetailNormal.psd
+  artifactKey: Guid(52d134672ac9a2b4ebe6cc9e6e1336ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_DetailNormal.psd using Guid(52d134672ac9a2b4ebe6cc9e6e1336ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b226a8aac190c86868979f51c8b74e') in 0.016991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_Nomal.psd
+  artifactKey: Guid(3f7c6748e24b6354e83d4d6e2758d779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_Nomal.psd using Guid(3f7c6748e24b6354e83d4d6e2758d779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4814ba5e852ce4735d0d710834e94a2e') in 0.016779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Textures/THOR_LightningClouds.psd
+  artifactKey: Guid(975df9da33767ce46a0f80594f5d921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Textures/THOR_LightningClouds.psd using Guid(975df9da33767ce46a0f80594f5d921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd96776abf42d7d112ae2d44a139bff') in 0.015941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/GUI/THOR_DemoGUI.png
+  artifactKey: Guid(66dc03c2b7271fb4f805a6bf597c94d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/GUI/THOR_DemoGUI.png using Guid(66dc03c2b7271fb4f805a6bf597c94d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810a87bddc9f13884221463943ee752b') in 0.017109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Textures/THOR_LightCookie.psd
+  artifactKey: Guid(71f57f9952cb68841b7511724425ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Textures/THOR_LightCookie.psd using Guid(71f57f9952cb68841b7511724425ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd5e4e2a8b3168516461da45b85e25a') in 0.016602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Textures/THOR_LightningBolts.psd
+  artifactKey: Guid(fbd43f864f3f5ea4eacee4c7b8d805d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Textures/THOR_LightningBolts.psd using Guid(fbd43f864f3f5ea4eacee4c7b8d805d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db2e9b43a6a4e8bb9966d4510a084f1') in 0.018945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/GUI/THOR_DemoGUI_BG.png
+  artifactKey: Guid(38624e897e39d8c46b1cc81812eaf213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/GUI/THOR_DemoGUI_BG.png using Guid(38624e897e39d8c46b1cc81812eaf213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8148eae04aba05e6bceb96acae69a001') in 0.016841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/GUI/THOR_Demo_Logo.png
+  artifactKey: Guid(23e46e11e2dc5044ab70903b3d70e14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/GUI/THOR_Demo_Logo.png using Guid(23e46e11e2dc5044ab70903b3d70e14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6784cbdf622941eccfd0dc8fd99a31a1') in 0.015561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_Diffuse.psd
+  artifactKey: Guid(a57cd89378ac1ec4cb25251b81d86592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/THOR_Thunderstorm/Example Scene/Sources/Materials/Textures/THOR_DemoTerrain_Diffuse.psd using Guid(a57cd89378ac1ec4cb25251b81d86592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366e80ed70e262f1695f76da9c68efb8') in 0.017551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.545353 seconds.
+  path: Assets/PolyToots/_Snowflakes/_Defaults/Checker_BW.png
+  artifactKey: Guid(d697d86bd4614be408b398d3f97f5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyToots/_Snowflakes/_Defaults/Checker_BW.png using Guid(d697d86bd4614be408b398d3f97f5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468bb51706a519b0bd363061cb65621e') in 0.015698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WinterNature/Material/Billboard/Conifer2.mat
+  artifactKey: Guid(aa2fc167ec5caab4c87d292c56f057ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Material/Billboard/Conifer2.mat using Guid(aa2fc167ec5caab4c87d292c56f057ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d486437877f095d02e350e248deaea') in 0.031189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WinterNature/Textures/Billboard/conifer2_Billboard_D.tga
+  artifactKey: Guid(606d57fe19497f844bb34b390dcf6dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Textures/Billboard/conifer2_Billboard_D.tga using Guid(606d57fe19497f844bb34b390dcf6dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089a0bf07d47c12e8302fd3fd9875e7') in 0.028874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WinterNature/Prefabs/conifer1.prefab
+  artifactKey: Guid(579a0ac423e92954f86a41cf25dbf462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Prefabs/conifer1.prefab using Guid(579a0ac423e92954f86a41cf25dbf462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee36bf19d9d25dbd0df13af69aac4d83') in 0.031435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WinterNature/Meshes/conifer2.FBX
+  artifactKey: Guid(71b7c34e9bf41a842909573ab3ad1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WinterNature/Meshes/conifer2.FBX using Guid(71b7c34e9bf41a842909573ab3ad1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f453d521c5898bd5cb26b7bda8880f') in 0.046129 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

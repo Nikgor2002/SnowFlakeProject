@@ -25,8 +25,8 @@ public class rainflakes : MonoBehaviour
         emissionModule = particleSystem.emission;
         particleSystemRenderer = GetComponent<ParticleSystemRenderer>();
         
-        mainModule.startLifetime = new ParticleSystem.MinMaxCurve(25f, 30f);
-        mainModule.startSize = new ParticleSystem.MinMaxCurve(0.1f, 0.2f);
+        mainModule.startLifetime = new ParticleSystem.MinMaxCurve(4f, 6f);
+        mainModule.startSize = new ParticleSystem.MinMaxCurve(0.05f, 0.1f);
         mainModule.maxParticles = 1000000000;
         mainModule.loop = true;
 
@@ -34,7 +34,7 @@ public class rainflakes : MonoBehaviour
         mainModule.scalingMode = ParticleSystemScalingMode.Shape;
         mainModule.gravityModifier = windDirection[1];
 
-        emissionModule.rateOverTime = 30000f;
+        emissionModule.rateOverTime = 50000f;
         
         if (temperature < 0f){
             particleSystem.Stop();
@@ -49,11 +49,6 @@ public class rainflakes : MonoBehaviour
         Vector3 Wind = new Vector3(windDirection[0]*_tick, 0f, windDirection[2]*_tick);
         Vector3 alfa = _startLocation - addVector + Wind;
 
-        
-        if (alfa[1] < -4.0f){
-            alfa = _startLocation;
-            _tick = 0f;
-        }
         transform.localPosition = alfa;
         
     }
