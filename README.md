@@ -27,7 +27,7 @@
 ## Documentation
 
 
-- [Документация].(https://docs.google.com/document/d/1392y6GzKOLiW8r81uVLG4jQELBxDC_YvxDGZ8tHvCo8/edit?usp=sharing)
+- [Документация](https://docs.google.com/document/d/1392y6GzKOLiW8r81uVLG4jQELBxDC_YvxDGZ8tHvCo8/edit?usp=sharing)
 
 ## Developers
 
