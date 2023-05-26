@@ -1,7 +1,7 @@
 <p align="center" >
    <img align="left" src="https://i.ibb.co/ZggTm1X/msg1915751769-115482.jpg" width="250" style="margin-right: 100px;">
     <img src="https://i.ibb.co/hVT3t3R/msg1915751769-115481.jpg" width="250" style="margin:  5px;">
-   <img align="right" src="https://i.ibb.co/SwJvVtF/fc4d7fb6-dda9-4be3-b31f-0d76abd5b727.jpg" width="250" style="margin-left: 5px;">
+   <img align="right" src="https://i.ibb.co/PFC3CJb/16377e88-5ab6-4cb7-98c7-7c1023040887.jpg" width="250" style="margin-left: 5px;">
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 ## Documentation
 
 
-P.S.: Тут Влад напишет красивую документацию :-)
+- [Документация](https://docs.google.com/document/d/1392y6GzKOLiW8r81uVLG4jQELBxDC_YvxDGZ8tHvCo8/edit?usp=sharing)
 
 ## Developers
 

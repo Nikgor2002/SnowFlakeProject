@@ -6,9 +6,9 @@ Shader "PolyToots/ASE_Snowflake"
 	{
 		[HideInInspector] _AlphaCutoff("Alpha Cutoff ", Range(0, 1)) = 0.5
 		[HideInInspector] _EmissionColor("Emission Color", Color) = (1,1,1,1)
-		[ASEBegin]_Sides("Sides", Float) = 6
+		[ASEBegin]_Sides("Sides", Float) = 8
 		_StarGrow("Star Grow", Float) = 0.1
-		_Branches("Branches", Float) = 5
+		_Branches("Branches", Float) = 6
 		[ASEEnd]_Thickness("Thickness", Float) = 0.1
 
 		//_TessPhongStrength( "Tess Phong Strength", Range( 0, 1 ) ) = 0.5
