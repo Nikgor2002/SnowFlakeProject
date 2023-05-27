@@ -27,7 +27,8 @@
 ## Documentation
 
 
-- [Документация](https://docs.google.com/document/d/1392y6GzKOLiW8r81uVLG4jQELBxDC_YvxDGZ8tHvCo8/edit?usp=sharing)
+- [Руководство пользователя ](https://github.com/Nikgor2002/SnowFlakeProject/blob/main/Руководство%20пользователя.md)
+- [Техническое описание ](https://github.com/Nikgor2002/SnowFlakeProject/blob/main/Техническое%20описание.md)
 
 ## Developers
 
