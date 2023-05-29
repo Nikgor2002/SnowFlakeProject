@@ -26,7 +26,7 @@ public class rainflakes : MonoBehaviour
         emissionModule = particleSystem.emission;
         particleSystemRenderer = GetComponent<ParticleSystemRenderer>();
         
-        mainModule.startLifetime = new ParticleSystem.MinMaxCurve(4f, 6f);
+        mainModule.startLifetime = new ParticleSystem.MinMaxCurve(2f, 3f);
         mainModule.startSize = new ParticleSystem.MinMaxCurve(0.05f, 0.1f);
         mainModule.maxParticles = 1000000000;
         mainModule.loop = true;

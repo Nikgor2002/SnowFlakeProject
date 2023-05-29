@@ -29,9 +29,9 @@ public class Snowflake : MonoBehaviour
         emissionModule = particleSystem.emission;
         particleSystemRenderer = GetComponent<ParticleSystemRenderer>();
 
-        mainModule.startLifetime = new ParticleSystem.MinMaxCurve(25f, 30f);
+        mainModule.startLifetime = 3.5f - 0.2f*windDirection[0];
         mainModule.startSpeed = new ParticleSystem.MinMaxCurve(0.2f, 0.3f);
-        mainModule.startSize = new ParticleSystem.MinMaxCurve(0.1f, 0.15f);
+        mainModule.startSize = new ParticleSystem.MinMaxCurve(0.05f, 0.1f);
         mainModule.maxParticles = 1000000000;
         mainModule.loop = true;
 
@@ -66,13 +66,6 @@ public class Snowflake : MonoBehaviour
         Vector3 addVector = new Vector3(x, y, z);
         Vector3 Wind = new Vector3(windDirection[0] * _tick, 0f, windDirection[2] * _tick);
         Vector3 alfa = _startLocation - addVector + Wind;
-
-
-        if (alfa[1] < -7.0f)
-        {
-            alfa = _startLocation;
-            _tick = 0f;
-        }
         transform.localPosition = alfa;
 
     }

@@ -6,7 +6,7 @@
 
 <p align="center">
    <img src="https://img.shields.io/badge/Engine%20%20-Unity%202021.3.20f1-brightgreen" alt="Unity Version">
-   <img src="https://img.shields.io/badge/version-2.0.0(Alpha)-blue" alt="Game Version">
+   <img src="https://img.shields.io/badge/version-2.0.1(Alpha)-blue" alt="Game Version">
    <img src="https://img.shields.io/badge/License-MIT-red" alt="License">
 </p>
 
@@ -27,7 +27,8 @@
 ## Documentation
 
 
-- [Документация](https://docs.google.com/document/d/1392y6GzKOLiW8r81uVLG4jQELBxDC_YvxDGZ8tHvCo8/edit?usp=sharing)
+- [Руководство пользователя ](https://github.com/Nikgor2002/SnowFlakeProject/blob/main/Руководство%20пользователя.md)
+- [Техническое описание ](https://github.com/Nikgor2002/SnowFlakeProject/blob/main/Техническое%20описание.md)
 
 ## Developers
 
